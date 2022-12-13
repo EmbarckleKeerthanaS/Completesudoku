@@ -1,0 +1,35 @@
+
+.sudoku-grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    height:500px;
+    width:500px;
+    
+}
+
+.cell{
+    border:1px solid black;
+    padding:1px;
+    height:50px;
+    width:50px;
+    text-align: center;
+    background-color:gold;
+    font-size: large;
+}
+
+.sudoku-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrong-cell{
+    border:1px solid black;
+    padding:1px;
+    height:50px;
+    width:50px;
+    text-align: center;
+    background-color:red;
+    font-size: large;
+}
