@@ -293,7 +293,7 @@ export const CompleteSudoku = () => {
             
             return(
                 <div> 
-                    <h1>Sudoku</h1>
+                    <h1>Complete Sudoku</h1>
                     <br></br>
                     <div className='sudoku-container'>
                         <div className='sudoku-grid'>
